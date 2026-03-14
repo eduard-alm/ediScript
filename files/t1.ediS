@@ -1,0 +1,33 @@
+!+110011101
+
+@sigma    #ce caractere sunt permise
+0 1 2
+@end
+
+@nodes   #noduri
+q0
+q1
+q2
+@end
+
+@start   #stare initiala
+q0
+@end
+
+@final   #interogam starea finala a unor/unui nod
+q0
+q1
+@end
+
+@rules   #reguli pentru noduri
+q0 -> 1 -> q1
+q0 -> 0 -> q0
+
+q1 -> 1 -> q2
+q1 -> 0 -> q0
+
+q2 -> 1 -> q2
+q2 -> 0 -> q0
+q2 -> 2 -> q3
+
+@end

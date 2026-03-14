@@ -1,0 +1,31 @@
+!+1100010100100101
+
+@sigma
+1 0
+@end
+
+@nodes
+a
+b
+c d
+@end
+
+@start
+a
+@end
+
+@final
+c
+@end
+
+@rules
+
+a -> 0 -> b
+a -> 1 -> d
+b -> 0 -> c
+b -> 1 -> a
+c -> 0 -> d
+c -> 1 -> b
+d -> 0 -> a
+d -> 1 -> c
+@end

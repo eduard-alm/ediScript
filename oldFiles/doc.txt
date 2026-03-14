@@ -1,0 +1,9 @@
+-prima linie incepe cu !+ si in continuare lipit stringul
+- @nodes e optional
+- sigma - ce caractere sunt permise in string
+  nodes - nodurile
+  start - nodul de inceput
+  final - nodul a carei stare vrem sa o verificam
+  rules - reguli
+- orice deschidere trebuie sa se termine in @end
+- orice deschidere trebuie sa inceapa cu @ si numele deschiderii
